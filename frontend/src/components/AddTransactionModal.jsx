@@ -65,11 +65,14 @@ export default function AddTransactionModal({ isOpen, onClose, onSubmit, editDat
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-md rounded-3xl" data-testid="add-transaction-modal">
+      <DialogContent className="sm:max-w-md rounded-3xl" data-testid="add-transaction-modal" aria-describedby="transaction-form-description">
         <DialogHeader>
           <DialogTitle className="text-2xl" style={{ fontFamily: 'Spectral, serif' }}>
             {editData ? "Edit Transaction" : "Add Transaction"}
           </DialogTitle>
+          <p id="transaction-form-description" className="sr-only">
+            Fill in the transaction details including type, date, category, description, and amount
+          </p>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <div className="space-y-2">
