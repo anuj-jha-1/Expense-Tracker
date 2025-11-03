@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "total_tests": 27,
+    "passed_tests": 27,
+    "success_rate": "100.0%"
+  },
+  "detailed_results": [
+    {
+      "test": "User Registration",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "User Login",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Invalid Login",
+      "status": "PASS",
+      "details": "Status: 400"
+    },
+    {
+      "test": "Get User Profile",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Create Expense Transaction",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Create Income Transaction",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get All Transactions",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Filter Transactions by Type (Expense)",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Filter Transactions by Type (Income)",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Filter Transactions by Category",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Update Transaction",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Transaction Summary",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Transaction Stats",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Food",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Transportation",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Entertainment",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Shopping",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Bills",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Healthcare",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Education",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Expense Category: Other",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Income Category: Salary",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Income Category: Freelance",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Income Category: Business",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Income Category: Investment",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Income Category: Other",
+      "status": "PASS",
+      "details": "Status: 200"
+    },
+    {
+      "test": "Delete Transaction",
+      "status": "PASS",
+      "details": "Status: 200"
+    }
+  ]
+}
